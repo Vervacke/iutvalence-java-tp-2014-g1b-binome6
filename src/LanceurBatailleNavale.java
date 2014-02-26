@@ -5,8 +5,8 @@ import fr.iutvalence.java.tp.BN.BatailleNavale;
  * Bataille Navale
  * Contient le "main" qui permet le démarage du jeu
  */
-// TODO renommer la classe
-public class LanceurBN
+// TODO (fait) renommer la classe
+public class LanceurBatailleNavale
 { 
 	/**
 	 * Initialisation du jeu

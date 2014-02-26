@@ -1,39 +1,50 @@
 package fr.iutvalence.java.tp.BN;
 
-import java.awt.Frame;
-import java.awt.GridLayout;
 
-import javax.sound.sampled.BooleanControl;
-
-// TODO compléter le commentaire
+// TODO (fait) compléter le commentaire
 /**
+ * Création d'une partie de Bataille Navale
  * @author vervackv
- *
  */
 public class BatailleNavale
 {
-	// TODO écrire un commentaire
-	public static final Boolean 
 	
-	// TODO compléter le commentaire
 	/**
-	 * 
+	 * Créer un Objet GrilleBateaux dans grilleBateau1
+	 */
+	private GrilleBateaux grilleBateaux1;
+	/**
+	 * Créer un Objet GrilleBateaux dans grilleBateau2
+	 */
+	private GrilleBateaux grilleBateaux2;
+	/**
+	 * Créer un Objet GrilleTirs dans grilleTirs1
+	 */
+	private GrilleTirs grilleTirs1;
+	/**
+	 * Créer un Objet GrilleTirs dans grilleTirs2
+	 */
+	private GrilleTirs grilleTirs2;
+
+	// TODO compléter le commentaire
+	/** Créations des 4 grilles nécessaires au déroulement de la partie
 	 */
 	public BatailleNavale()
 	{
-		boolean Grille[][];
-				{
-				
-				}
+		this.grilleBateaux1 = new GrilleBateaux();
+		this.grilleBateaux2 = new GrilleBateaux();
+		this.grilleTirs1 = new GrilleTirs();
+		this.grilleTirs2 = new GrilleTirs();
+		
 	}
 	
-	// TODO compléter le commentaire
-	/**
-	 * 
+	// TODO (fait) compléter le commentaire
+	/**Lancement de la partie avec des tours
 	 */
 	public void jouer()
 	{
-		
+
 	}
+
 
 }
