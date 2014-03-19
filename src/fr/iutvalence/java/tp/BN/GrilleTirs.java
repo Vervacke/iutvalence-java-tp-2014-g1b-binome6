@@ -19,12 +19,12 @@ public class GrilleTirs
 	 */
 	private boolean[][] cases;
 	
+	
 	/**
 	 * Creation de la grille
 	 */
 	public GrilleTirs()
 	{
 		this.cases = new  boolean [NB_LIGNES][NB_COLONNES];
-		
 	}
 }

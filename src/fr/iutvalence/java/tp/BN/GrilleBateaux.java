@@ -6,24 +6,19 @@ package fr.iutvalence.java.tp.BN;
  */
 public class GrilleBateaux
 {
-		/**
-		 * La grille est composé de 10 lignes
-		 */
-		private static final int NB_LIGNES = 10;
-		/**
-		 * La grille est composé de 10 colonnes
-		 */
-		private static final int NB_COLONNES = 10;
-		/**
-		 * Chaque case contient un booleen qui précise si un bateau occupe la case ou non
-		 */
-		private boolean[][] cases;
+		private Bateau Bateau1;
+		private Bateau Bateau2;
+		private Bateau Bateau3;
+		private Bateau Bateau4;
 		
 		/**
 		 * Creation de la grille
 		 */
 		public GrilleBateaux()
 		{
-			this.cases = new  boolean [NB_LIGNES][NB_COLONNES];
+			this.Bateau1 = new Bateau();
+			this.Bateau2 = new Bateau();
+			this.Bateau3 = new Bateau();
+			this.Bateau4 = new Bateau();
 		}
 }
