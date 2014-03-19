@@ -12,7 +12,8 @@ public class Bateau
 	
 	private Position[] positions;
 
-	private int coule;
+	
+	private boolean[] coule;
 
 	public int getType()
 	{

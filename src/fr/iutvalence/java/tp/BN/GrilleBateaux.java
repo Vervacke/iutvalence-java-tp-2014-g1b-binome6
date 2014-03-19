@@ -21,4 +21,5 @@ public class GrilleBateaux
 			this.Bateau3 = new Bateau();
 			this.Bateau4 = new Bateau();
 		}
+		
 }
