@@ -19,12 +19,27 @@ public class GrilleTirs
 	 */
 	private boolean[][] cases;
 	
+	private Position[] Tir;
 	
+	public Position[] getTir()
+	{
+		return Tir;
+		
+	}
+
+	public void setTir(Position[] tir)
+	{
+		Tir = tir;
+		this.cases[Tir[0].obtenirNumeroDeColonne()][Tir[1].obtenirNumeroDeLigne()] = true;
+		
+	}
+
 	/**
 	 * Creation de la grille
 	 */
 	public GrilleTirs()
 	{
 		this.cases = new  boolean [NB_LIGNES][NB_COLONNES];
+		
 	}
 }

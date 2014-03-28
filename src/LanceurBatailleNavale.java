@@ -1,5 +1,7 @@
 
 import fr.iutvalence.java.tp.BN.BatailleNavale;
+import fr.iutvalence.java.tp.BN.Bateau;
+import fr.iutvalence.java.tp.BN.Position;
 
 /**
  * Bataille Navale
@@ -16,6 +18,16 @@ public class LanceurBatailleNavale
 	public static void main(String[] args)
 		{
 		System.out.println ("Création de la partie");
+		Bateau[] bateauxJ1 = new Bateau[1];
+		
+		Position[] positionsBateauJ1 = new Position[5];
+		positionsBateauJ1[0] = new Position(0, 0);
+		
+		bateauxJ1[0] = new Bateau();
+		
+		Bateau[] bateauxJ2 = new Bateau[1];
+		bateauxJ2[0] = new Bateau();
+		
 		BatailleNavale partieDeBatailleNavale = new BatailleNavale();
 		System.out.println("Demarrage de la partie");
 		partieDeBatailleNavale.jouer();

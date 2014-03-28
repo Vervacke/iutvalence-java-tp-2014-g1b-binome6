@@ -12,11 +12,11 @@ public class BatailleNavale
 	/**
 	 * Créer un Objet GrilleBateaux dans grilleBateau1
 	 */
-	private GrilleBateaux grilleBateauxJ1;
+	private Bateau[] bateauxJ1;
 	/**
 	 * Créer un Objet GrilleBateaux dans grilleBateau2
 	 */
-	private GrilleBateaux grilleBateauxJ2;
+	private Bateau[] bateauxJ2;
 	/**
 	 * Créer un Objet GrilleTirs dans grilleTirs1
 	 */
@@ -29,10 +29,10 @@ public class BatailleNavale
 	// TODO compléter le commentaire
 	/** Créations des 4 grilles nécessaires au déroulement de la partie
 	 */
-	public BatailleNavale()
+	public BatailleNavale(Bateau[] bateauxJ1, Bateau[] bateauxJ2)
 	{
-		this.grilleBateauxJ1 = new GrilleBateaux();
-		this.grilleBateauxJ2 = new GrilleBateaux();
+		this.bateauxJ1 = bateauxJ1;
+		this.bateauxJ2 = bateauxJ2;
 		this.grilleTirsJ1 = new GrilleTirs();
 		this.grilleTirsJ2 = new GrilleTirs();
 		
