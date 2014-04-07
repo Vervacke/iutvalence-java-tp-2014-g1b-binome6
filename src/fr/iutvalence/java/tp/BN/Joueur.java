@@ -1,7 +1,15 @@
 package fr.iutvalence.java.tp.BN;
 
+/**
+ * @author vervackv
+ * Un joueur
+ */
 public class Joueur
 {
-	private String Nom;
+	/**
+	 * Identifiant du joueur
+	 */
+	public String Nom;
+	
 	
 }

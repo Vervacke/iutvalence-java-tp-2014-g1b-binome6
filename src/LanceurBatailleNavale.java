@@ -22,11 +22,14 @@ public class LanceurBatailleNavale
 		
 		Position[] positionsBateauJ1 = new Position[5];
 		positionsBateauJ1[0] = new Position(0, 0);
+	
+		bateauxJ1[0] = new Bateau(Bateau.CROISEUR, positionsBateauJ1);
 		
-		bateauxJ1[0] = new Bateau();
+		Position[] positionsBateauJ2 = new Position[5];
+		positionsBateauJ2[0] = new Position(0, 0);
 		
 		Bateau[] bateauxJ2 = new Bateau[1];
-		bateauxJ2[0] = new Bateau();
+		bateauxJ2[0] = new Bateau(Bateau.CROISEUR, positionsBateauJ2);
 		
 		BatailleNavale partieDeBatailleNavale = new BatailleNavale();
 		System.out.println("Demarrage de la partie");

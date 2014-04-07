@@ -1,5 +1,7 @@
 package fr.iutvalence.java.tp.BN;
 
+import java.util.Random;
+
 
 // TODO (fait) compléter le commentaire
 /**
@@ -28,6 +30,8 @@ public class BatailleNavale
 
 	// TODO compléter le commentaire
 	/** Créations des 4 grilles nécessaires au déroulement de la partie
+	 * @param bateauxJ1 Liste contenant les bateaux du joueur 1
+	 * @param bateauxJ2 Liste contenant les bateaux du joueur 2
 	 */
 	public BatailleNavale(Bateau[] bateauxJ1, Bateau[] bateauxJ2)
 	{
@@ -38,12 +42,27 @@ public class BatailleNavale
 		
 	}
 	
+	public boolean victoire;
+	// TODO définir les conditions de victoires
+	
+	
+	
 	// TODO (fait) compléter le commentaire
 	/**Lancement de la partie avec des tours
 	 */
 	public void jouer()
-	{
-
+	
+	{//TODO Demander position aux joueurs
+	 //	si position déjà demandé, en demander une autre
+	 //	vérifier les conséquences du tirs
+	 //	passer au joueur suivant
+		this.victoire = false;
+		do
+		{
+			
+		}
+		while(this.victoire==false);
+		
 	}
 
 
